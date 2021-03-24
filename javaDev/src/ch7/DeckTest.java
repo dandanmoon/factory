@@ -16,7 +16,7 @@ class Deck{
 	Card c[] = new Card[CARD_NUM];
 
 	Deck() {
-		int i =0;
+		int i =0; 
 
 		for(int k = Card.KIND_MAX; k > 0; k--) {
 			for(int n = 1; n<Card.NUM_MAX +1; n++) {
