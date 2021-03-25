@@ -28,7 +28,7 @@ class Time{
 		this.hour = hour;
 	}
 	public int minute() {  return minute;}
-	public void setMinute(int minute) {
+	public void setMinute(int minute) { 
 		if(minute < 0 || minute >59) return;
 		this.minute = minute;
 	}
